@@ -1,0 +1,62 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.kontainer{
+    width: 800px;
+    height: 800px;
+    border: 10px solid black;
+
+}
+.konten{
+    margin: auto;
+    width: 800px;
+}
+.kelas1{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    float: left;
+}
+.kelas2{
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    float: left;
+}
+.kelas3{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    float: left;
+}
+.kelas4{
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    float: left;
+}
+.kelas5{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    float: left;
+}
+.kelas6{
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    float: left;
+}
+.kelas7{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    float:left;
+}
+.kelas8{
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    float: left;
+}

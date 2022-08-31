@@ -1,0 +1,32 @@
+body{
+    background-color:lightgreen;
+    background-image:url(sample.png);
+    /* agar gambar tidak terulang/ double */
+    background-repeat:no-repeat;
+    background-position:center;
+}
+h1{
+    background-color:rgb(200, 255, 0);
+    margin: 50px 0 0 0 ;
+    padding:50px;
+}
+
+p{
+    color: black;
+}
+
+.try{
+    background-color:rgb(28, 251, 255);
+    padding:50px;
+}
+#try2{
+    font: size 18px;
+    padding-bottom: 10px;
+}
+a{
+    font-size: 20px;
+}
+a:hover{
+    background-color:red;
+    color: white;
+}

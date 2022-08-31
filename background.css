@@ -1,0 +1,17 @@
+
+.quote{
+    text-align: center;
+    margin: 500px;
+    padding: auto;
+    color:white;
+    bottom: 35px;
+    font-size: 50px;    
+    letter-spacing: 1px;
+}
+span{
+    color: rgb(255, 0, 119);
+}
+
+body{
+    background: black;
+}

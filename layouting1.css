@@ -1,0 +1,76 @@
+.wrapper{
+    display:flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.wrapper > *{
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+.header{
+    background: rgb(255, 0, 0);
+    height: 120px;
+}
+.footer{
+    background: rgb(255, 119, 0);
+    height: 80px;
+}
+.bungkus{
+    display: flex;
+}
+.main{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    background: yellowgreen;
+}
+.main_judul{
+    text-align: center;
+    
+}
+.aside1{
+    background: rgb(145, 255, 0);
+}
+.aside2{
+    background: rgb(255, 0, 102);
+}
+.a11{
+    background-color: rgb(0, 255, 179);
+    display: block;
+    width: 40px;
+    height:50px ;
+    /* padding:20px; */
+    text-decoration: none;
+}
+.a22{
+    background-color: rgb(255, 0, 149);
+    display: block;
+    width: 40px;
+    height:50px ;
+    /* padding:20px; */
+    text-decoration: none;
+}
+@media all and (min-width:800px) {
+    .main{
+        flex: 3;
+    }
+    .aside1{
+        order: 1;
+    }
+    .aside2{
+        order: 2;
+    }
+    .main{
+        order: 2;
+    }
+    .footer{
+        order: 4;
+    }
+}
+@media all and(min-width: 600px){
+    .aside1{
+        flex: 1;
+    }
+}

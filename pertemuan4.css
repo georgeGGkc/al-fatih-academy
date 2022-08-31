@@ -1,0 +1,26 @@
+h1{
+    background-color: aqua;
+}
+p{
+    background-color: rgb(16, 219, 151);
+}
+.a1 .a11{
+    background-color: rgb(229, 255, 0);
+    display: inline-block;
+    width: 200px;
+    height:200px ;
+}
+.a2 .a22{
+    background-color: rgb(229, 255, 0);
+    display: inline-block;
+    width: 200px;
+    height:200px ;
+}
+div{
+    background-color:blue;
+    margin-top:10px;
+    width: 50%;
+    margin: 10px 20px 10px 20px;
+    overflow: auto;
+    
+}

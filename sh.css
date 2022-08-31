@@ -1,0 +1,42 @@
+.ignielHorizontal ul {
+    background-color: #673ab7; 
+    max-width: 100%; 
+    overflow-x: auto;
+  }
+  .ignielHorizontal {
+    color: #fff;
+    line-height: 0px;
+    overflow: hidden;
+  }
+  .ignielHorizontal a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 13px;
+    line-height: 1.5em;
+    display: block;
+  }
+  .ignielHorizontal a:hover {
+    background-color: rgba(0,0,0,.25);
+    color: #fff;
+    text-decoration: none;
+  }
+  .ignielHorizontal ul, .ignielHorizontal li {
+    list-style: none;
+    display: inline-block;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+  }
+  @media screen and (max-width: 480px){
+    .ignielHorizontal a {
+      font-size: 13px;
+      padding: 8px 11px;
+    }
+  }
+  @media screen and (max-width: 360px){
+    .ignielHorizontal a {
+      font-size: 12px;
+      padding: 7px 10px;
+    }
+  }

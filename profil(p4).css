@@ -1,0 +1,37 @@
+.container{
+    width: 800px;
+    margin: auto;
+}
+h1 {
+    font-size:80px;
+    text-align: center;
+}
+.nav1 a{
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav2 a{
+    margin-top:20px;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+p {
+    width: 10   0%;
+    height: 200px;
+    overflow:scroll;
+}
+.nav1 a:hover{
+    background-color: rgb(0, 255, 208);
+    color: white;
+}
+.nav2 a:hover{
+    background-color: rgb(0, 128, 255);
+    color: white;
+}
+.aktif{
+    background-color: rgb(0, 255, 208);
+    color: white;
+}
